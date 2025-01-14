@@ -8,7 +8,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Command, CommandInput } from "@/components/ui/command";  // Update import path
 import { CommandIcon } from "lucide-react";
-import { commandicon } from "@/app/utils/icons";
+import { commandIcon } from "@/app/utils/icons";
 
 function SearchButton() {
   return (
@@ -21,7 +21,7 @@ function SearchButton() {
           >
             <p className="text-sm text-muted-foreground">Search Here...</p>
             <div className="command dark:bg-[#262626] bg-slate-200 py-[2px] pl-[5px] pr-[7px] rounded-sm flex items-center gap-2">
-              {commandicon}
+              {commandIcon}
               <span className="text-[9px]">F</span>
             </div>
           </Button>
